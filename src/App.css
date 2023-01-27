@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Reem Kufi Fun", sans-serif;
+}
+.hero {
+  background-image: url("./assets/images/fondo-hero.png");
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.sombra {
+  text-shadow: 3px 5px 30px black;
+}
+.sombraFuerte {
+  text-shadow: 3px 5px 10px black;
+}
+.blur-shadow {
+  background-color: #191919bd;
+}
+.scrollLento {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1024px) {
+  .sombra {
+    text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.439);
+  }
+}
