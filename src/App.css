@@ -7,7 +7,7 @@ body {
   font-family: "Reem Kufi Fun", sans-serif;
 }
 .hero {
-  background-image: url("./assets/images/fondo-hero.png");
+  background-image: url("./assets/images/fondo-hero-convert.jpg");
   background-size: cover;
   background-position: 50% 0%;
 }
@@ -17,6 +17,9 @@ body {
 }
 .sombraFuerte {
   text-shadow: 3px 5px 10px black;
+}
+.sombraSuave {
+  text-shadow: 3px 10px 30px rgba(22, 22, 22, 0.271);
 }
 .blur-shadow {
   background-color: #191919bd;

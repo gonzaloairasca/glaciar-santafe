@@ -13,19 +13,28 @@ function Footer() {
       </h3>
       <ul className="flex gap-8 py-4">
         <li>
-          <img src={wsp} alt="icono wsp" />
+          <a href="https://api.whatsapp.com/send?phone=+5493426149190&text=Hola,%20quiero%20realizar%20una%20consulta">
+            <img src={wsp} alt="icono wsp" />
+          </a>
         </li>
         <li>
-          <img src={instalgram} alt="icono instagram" />
+          <a href="https://www.instagram.com/glaciarsantafe/" target="_blank">
+            <img src={instalgram} alt="icono instagram" />
+          </a>
         </li>
 
         <li>
-          <img src={facebook} alt="icono facebook" />
+          <a href="https://www.facebook.com/Glaciarsantafe/" target="_blank">
+            <img src={facebook} alt="icono facebook" />
+          </a>
         </li>
       </ul>
       <p className="text-xs py-3">
         Diseñado y desarrollado por
-        <a href="gonzaloairascaweb.com.ar">Gonzalo Airasca Web</a>
+        <a href="gonzaloairascaweb.com.ar" target="_blank">
+          {" "}
+          Gonzalo Airasca Web
+        </a>
       </p>
     </footer>
   );

@@ -7,11 +7,13 @@ function Header() {
   const [nav, setNav] = useState(false);
   return (
     <header className="flex justify-between  text-cyan-50 fixed top-0 left-0 right-0 bg-white  z-50">
-      <img
-        src={glaciarLogo}
-        alt="logo de Glaciar Refrigeración Santa fe"
-        className="ml-2 mb-4 h-16 rounded-lg"
-      />
+      <a href="#">
+        <img
+          src={glaciarLogo}
+          alt="logo de Glaciar Refrigeración Santa fe"
+          className="ml-2 mb-4 h-16 rounded-lg"
+        />
+      </a>
       <ul className=" hidden md:flex md:gap-4 md:mr-6 md:items-center md:text-text-blue">
         <li>
           <a href="#nosotros">NOSOTROS</a>

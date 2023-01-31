@@ -22,7 +22,7 @@ function Nosotros() {
           momento de brindar el mejor servicio en refrigeración comercial,
           industrial y aire acondicionado.
         </p>
-        <p className="text-2xl w-10/12 ml-8 mt-4 hidden md:inline-block lg:w-full">
+        <p className="text-2xl w-10/12 ml-8 mt-4 pb-5 hidden md:inline-block lg:w-full">
           Logrando a partir del año 2018 contar con Nombre y espacio propio,
           personal altamente capacitado y el compromiso intacto para quienes
           requieren atención en tan delicada área.
