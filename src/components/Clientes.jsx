@@ -25,43 +25,76 @@ function Clientes() {
       </h2>
       <div className="flex flex-wrap gap-4 justify-center  py-8 lg:gap-1 lg:w-5/6 lg:m-auto lg:justify-around">
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={aristeo} alt="" className="" />
+          <img
+            src={aristeo}
+            alt="logo Aristeo cliente glaciar santa fe"
+            className=""
+          />
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={buenSol} alt="" />
+          <img
+            src={buenSol}
+            alt="logo Bueno Sol distribuidora cliente glaciar santa fe"
+          />
         </div>
         <div className="w-5/12 lg:h-[300px] lg:w-[300px] flex items-center">
-          <img src={cantabria} alt="" />
+          <img
+            src={cantabria}
+            alt="logo cantabria heladeria cliente glaciar santa fe"
+          />
         </div>
         <div className="w-5/12  flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={leUtthe} alt="" />
+          <img src={leUtthe} alt="logo le Utthe cliente glaciar santa fe " />
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={monjeCoop} alt="" />
+          <img
+            src={monjeCoop}
+            alt="logo monje cooperativa cliente glaciar santa fe"
+          />
         </div>
         <div className="w-5/12 font-serif text-slate-50 lg:text-3xl font-bold text-center flex items-center justify-center lg:h-[300px] lg:w-[300px] ">
-          <img src={marfig} alt="" />
+          <img src={marfig} alt="logo Marfig cliente glaciar santa fe" />
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={rafaelaAlimentos} alt="" />
+          <img
+            src={rafaelaAlimentos}
+            alt="logo Rafaela Alimentos cliente glaciar santa fe"
+          />
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={superLorito} className="" alt="" />
+          <img
+            src={superLorito}
+            className=""
+            alt="logo Super Lorito cliente glaciar santa fe"
+          />
         </div>{" "}
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={atte} className="" alt="" />
+          <img
+            src={atte}
+            className=""
+            alt="logo ATE cliente glaciar santa fe"
+          />
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={tremblay} alt="" />
+          <img src={tremblay} alt="logo Tremblay cliente glaciar santa fe" />
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={intertowel} alt="" />
+          <img
+            src={intertowel}
+            alt="logo Intertowel cliente Glaciar santa fe"
+          />
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={laLilia} alt="" />
+          <img
+            src={laLilia}
+            alt="logo la lilia cabañas y tambo cliente glaciar santa fe"
+          />
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px] ">
-          <img src={dogueriaDelSud} alt="" />
+          <img
+            src={dogueriaDelSud}
+            alt="logo droguería del sud cliente glaciar santa fe"
+          />
         </div>
         <div className="w-5/12 font-serif text-lg bg-black text-slate-50 lg:text-3xl font-bold text-center flex items-center justify-center lg:h-[300px] lg:w-[300px] ">
           <h2 className="">
@@ -69,7 +102,7 @@ function Clientes() {
           </h2>
         </div>
         <div className="w-5/12 flex items-center lg:h-[300px] lg:w-[300px]">
-          <img src={lario} alt="" />
+          <img src={lario} alt="logo Lario Fiambres cliente glaciar santa fe" />
         </div>
       </div>
     </section>
